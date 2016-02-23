@@ -10,7 +10,7 @@ body {
   position: relative;
   height: 60vh;
   z-index: -2;
-  background: url("https://unsplash.it/2000/800?image=563") center top/cover no-repeat;
+  background-image: url("../images/mountains.jpeg") center top/cover no-repeat;
 }
 
 .overlay {
