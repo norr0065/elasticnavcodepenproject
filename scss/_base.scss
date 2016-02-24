@@ -1,10 +1,24 @@
-$green: #37ca7e;
-$blue: #43a6dd;
-$grey: #aaaaaa;
-$grey-dark: #666666;
+// Project Athena Variablees 
+
+$navy: #23223C;
+$purple: #655471;
+$blue: #0DC6DC;
+$pink: #E1C4C6;
+
+$facebook:#3b5998;
+$instagram:#ded1c1;
+$twitter: #00aced;
+
+$light-grey: #E6E6E6;
+$dark-grey: #222;
 $white: #fff;
+$black:#000000;
 
-$primary: $white;
-$secondary: $green;
+$text-color: $dark-grey;
 
-$lato: Lato, Arial, sans-serif;
+// font families
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+$open-sans: 'Open Sans', sans-serif;
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+$oswald: 'Oswald', sans-serif;
