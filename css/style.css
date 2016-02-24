@@ -105,10 +105,13 @@ ul:after {
 .tile__title {
   margin: 0;
   font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .tile__description {
-  font-size: 14px;
+  font-size: 12px;
   overflow-y: auto;
 }
 
