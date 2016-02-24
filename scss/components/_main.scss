@@ -8,7 +8,7 @@ html, body{
   margin: 0;
   padding: 0;
   font-family: $open-sans, sans-serif;
-  color: #ffffff;
+  color: $white;
 }
 
 .wrapper{
@@ -92,7 +92,7 @@ ul{
     left: 0;
     padding: 20px 20px 60px 20px;
     z-index: 10;
-    background: rgba(7,24,57,0.95);
+    background: $drknavy;
     opacity: 0;
     transition: opacity 0.25s ease-in-out;
   }
