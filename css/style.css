@@ -31,16 +31,19 @@ ul:after {
 
 .navigation ul {
   padding: 0;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px;
 }
 
 .navigation li {
   list-style-type: none;
   display: inline;
-  padding: 6em;
+  padding: 2.5em;
 }
 
 .navigation li a {
-  position: absolute;
+  position: center;
   padding: 1em 1em;
   text-decoration: none;
   color: #000000;
@@ -116,11 +119,13 @@ ul:after {
   background: #0DC6DC;
   color: #ffffff;
   text-decoration: none;
-  padding: 10px 14px;
+  padding: 10px 109.5px;
   z-index: 20;
   transition: all 0.15s ease-in-out;
+  font-family: "Oswald", sans-serif;
+  opacity: 8;
 }
 
 .tile__button:hover {
-  background: #b1172b;
+  background: #fda88e;
 }
