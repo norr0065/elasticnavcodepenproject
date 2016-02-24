@@ -33,13 +33,16 @@ ul{
 .navigation{
 		ul{
 			padding: 0;
+            max-width: 960px;
+            margin: 0 auto;
+        padding: 15px
 		}
 		li{
 			list-style-type: none;
             display: inline;
-            padding: 6em;
+            padding: 2.5em;
 		a{
-			position: absolute;
+			position: center;
 			padding: 1em 1em;
 			text-decoration: none;
             color: $black;
@@ -112,12 +115,15 @@ ul{
     background: $aqua;
     color: #ffffff;
     text-decoration: none;
-    padding: 10px 14px;
+    padding: 10px 109.5px;
     z-index: 20;
     transition: all 0.15s ease-in-out;
+    font-family: $oswald;
+    opacity:8; 
     
+   
     &:hover{
-      background: darken(#de1d36, 10%);
+background: $pink;
     }
   }
   
